@@ -1,0 +1,20 @@
+{
+  "name": "middleclaw",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "server.mjs",
+  "scripts": {
+    "start": "node server.mjs",
+    "setup": "node server.mjs -i",
+    "start:quick": "node server.mjs -y"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "ws": "^8.19.0"
+  }
+}
